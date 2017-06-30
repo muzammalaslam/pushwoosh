@@ -22,7 +22,6 @@ describe Pushwoosh::PushNotification do
       {
         notification_options: {
           send_date: "now",
-          :ios_badges=>"+1",
           content: "Testing"
         },
         auth: "5555-5555",
@@ -61,7 +60,6 @@ describe Pushwoosh::PushNotification do
       {
         notification_options: {
           send_date:  "now",
-          ios_badges: "+1",
           content:    "Testing",
           devices: ["dec301908b9ba8df85e57a58e40f96f523f4c2068674f5fe2ba25cdc250a2a41",
                     'bec301908b9ba8df85e57a58e40f96f523f4c2068674f5fe2ba25cdc250a2a41']
