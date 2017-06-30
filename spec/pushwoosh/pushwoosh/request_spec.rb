@@ -12,7 +12,6 @@ describe Pushwoosh::Request do
           notifications:
           [{
             send_date: "now",
-            ios_badges: "+1",
             content: "Testing"
           }]
         }
@@ -26,7 +25,6 @@ describe Pushwoosh::Request do
         notification_options:
         {
           send_date: "now",
-          :ios_badges=>"+1",
           content: "Testing"
         }
       }
